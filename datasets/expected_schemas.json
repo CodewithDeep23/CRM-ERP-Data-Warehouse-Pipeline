@@ -1,0 +1,52 @@
+{
+    "crm_cust_info": [
+      {"name": "cst_id", "type": "IntegerType"},
+      {"name": "cst_key", "type": "StringType"},
+      {"name": "cst_firstname", "type": "StringType"},
+      {"name": "cst_lastname", "type": "StringType"},
+      {"name": "cst_marital_status", "type": "StringType"},
+      {"name": "cst_gndr", "type": "StringType"},
+      {"name": "cst_create_date", "type": "DateType"}
+    ],
+  
+    "crm_prd_info": [
+      {"name": "prd_id", "type": "IntegerType"},
+      {"name": "prd_key", "type": "StringType"},
+      {"name": "prd_nm", "type": "StringType"},
+      {"name": "prd_cost", "type": "IntegerType"},
+      {"name": "prd_line", "type": "StringType"},
+      {"name": "prd_start_dt", "type": "TimestampType"},
+      {"name": "prd_end_dt", "type": "TimestampType"}
+    ],
+  
+    "crm_sales_details": [
+      {"name": "sls_ord_num", "type": "StringType"},
+      {"name": "sls_prd_key", "type": "StringType"},
+      {"name": "sls_cust_id", "type": "IntegerType"},
+      {"name": "sls_order_dt", "type": "IntegerType"},
+      {"name": "sls_ship_dt", "type": "IntegerType"},
+      {"name": "sls_due_dt", "type": "IntegerType"},
+      {"name": "sls_sales", "type": "IntegerType"},
+      {"name": "sls_quantity", "type": "IntegerType"},
+      {"name": "sls_price", "type": "IntegerType"}
+    ],
+  
+    "erp_loc_a101": [
+      {"name": "cid", "type": "StringType"},
+      {"name": "cntry", "type": "StringType"}
+    ],
+  
+    "erp_cust_az12": [
+      {"name": "cid", "type": "StringType"},
+      {"name": "bdate", "type": "DateType"},
+      {"name": "gen", "type": "StringType"}
+    ],
+  
+    "erp_px_cat_g1v2": [
+      {"name": "id", "type": "StringType"},
+      {"name": "cat", "type": "StringType"},
+      {"name": "subcat", "type": "StringType"},
+      {"name": "maintenance", "type": "StringType"}
+    ]
+}
+  
